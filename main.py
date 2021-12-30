@@ -14,7 +14,7 @@ def send_commands():
         if cmd == 'crypt':
             conn.send(cmd.encode('utf-8'))
         if cmd == 'decrypt':
-            conn.send(cmd.encode('utf-c8'))
+            conn.send(cmd.encode('utf-8'))
         else:
             conn.send(cmd.encode('utf-8'))
             data = conn.recv(1024)
