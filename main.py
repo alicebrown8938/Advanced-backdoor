@@ -25,7 +25,7 @@ def send_commands():
 def accepting():
     global conn
     conn,addr = sock.accept()
-    print('Connecting to %s' % addr)
+    print('Connecting to %s' % addr[0])
     send_commands()
     sock.close()
 
