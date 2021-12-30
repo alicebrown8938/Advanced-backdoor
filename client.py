@@ -35,19 +35,19 @@ def decrypt_dir(dir):
         try:
             for name in os.listdir(dir):
                 path = os.path.join(dir, name)
-                print(path)
+                #print(path)
                 if os.path.isfile(path):
-                    print(path)
+                    #print(path)
                     decrypt()
                 else:
                     decrypt_dir(path)
         except NotADirectoryError as msg:
             #root = os.chdir(path)
-            print(str(msg))
+            #print(str(msg))
 
                 
     except FileNotFoundError as f:
-        print(str(f))
+        #print(str(f))
 
 
 def crypt():
