@@ -1,4 +1,4 @@
-# Advanced-backdoor
+# Advanced-backdoor tested on a Unix machine
 Use it
 Complete backdoor with encryption and decryption functions. I hope for your feedback.
 Usage example:
